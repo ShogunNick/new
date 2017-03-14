@@ -1,0 +1,163 @@
+
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.container {
+	background-color: ;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.content {
+	height: 3000px;
+	width: 1000px;
+	background-color: grey;
+	margin: 0 auto;
+}
+
+.head {
+	
+}
+
+#logo {
+	position: absolute;
+	top: 30px;
+	left: 48.5px;
+	color: #fff;
+	
+
+}
+
+#logo div {
+	margin-top: 8px;
+	float: right; 
+	
+}
+
+.line {
+border-left: 2px solid #ccc; /* Параметры линии */ 
+    margin-left: 20px; /* Отступ слева */
+    padding-left: 10px; /* Расстояние от линии до текста */ 
+}
+
+#about {
+	position: absolute;
+	top: 70px;
+	left: 48.5px;
+	color: #fff;
+}
+
+#about p {
+	margin-left: 270px;
+}
+
+#more_info {
+	display: block;
+	width: 300px;
+	margin-top: 40px; 
+}
+
+#menu {
+	position: absolute;
+	top: 10px;
+	right: 70px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #fff;
+
+	text-align: center;
+	padding: 4px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #007100;
+	opacity: 0.8;
+	text-decoration: none;
+	color: #fff;
+}
+
+li a.active {
+	color: white;
+	background-color: #4CAF50;
+}
+
+/* SLIDER */
+.carousel slide {
+	padding-top: 20px;
+}
+
+ #myCarousel {
+ 	width: 1100px;
+ 	padding-top: 20px;
+ }
+
+ #myCarousel > img {
+ 	width: 1100px;
+ }
+
+ .scarlett {
+ 	margin-top: 80px;
+ }
+
+#niko {
+	position: relative;
+}
+
+#niko > h1 {
+	position: absolute;
+	top:180px;
+	left: 95px; 
+}
+
+
+.is {
+	position: absolute;
+	top:280px;
+	left: 95px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 21pt; 
+}
+
+#quot {
+	position: absolute;
+	top: 90px;
+}
+
+#self {
+	position: absolute;
+	top: 90px;
+	right: 110px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.footer{
+    position: relative
+}
+#dList {
+	position: absolute;
+	top:150;
+	left: 95px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 21pt; 
+
+}
